@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+*.env
+
+# FastAPI/Uvicorn
+*.log
+uvicorn.log
+
+# Apache Spark
+spark-warehouse/
+metastore_db/
+derby.log
+spark_events/
+*.spark
+
+# Datasets (since you have store_dataset.csv, features_dataset.csv, sales_dataset.csv)
+data/
+*.csv
+*.parquet
+*.orc
+*.avro
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.bak
+*.swp
+*~
+*.tmp
+temp/
+tmp/
+
+# Dependency directories
+site-packages/
+dist/
+build/
+*.egg-info/
+
+# Jupyter notebooks (if used with Prophet)
+*.ipynb
+*.ipynb_checkpoints/
+
+# Testing and coverage
+.coverage
+coverage.xml
+*.cover
+*.pytest_cache/
